@@ -1,0 +1,9 @@
+"str_cast_title" = "投屏到电视";
+"str_cast_availabledevice" = "附近的设备";
+"str_cast_notfound" = "没找到设备";
+"str_cast_finddevice" = "查找设备";
+"str_cast_casting" = "正在投屏中";
+"str_cast_toast_notmember" = "仅会员用户支持投屏功能功能，请先订阅会员再使用投屏功能";
+"str_cast_toast_fail" = "投屏失败，请重试";
+"str_cast_fail_tryagain" = "链接错误，请重试";
+"str_cast_nodevice_info" = "没找到设备？你的电视可能暂不支持，我们正在扩展兼容范围";

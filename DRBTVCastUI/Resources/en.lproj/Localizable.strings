@@ -1,0 +1,9 @@
+"str_cast_title" = "Cast to TV";
+"str_cast_availabledevice" = "Available Devices";
+"str_cast_notfound" = "No Devices Found";
+"str_cast_finddevice" = "Search for Devices";
+"str_cast_casting" = "Casting...";
+"str_cast_toast_notmember" = "Casting is available to members only. Please subscribe to use this feature.";
+"str_cast_toast_fail" = "Casting failed. Please try again.";
+"str_cast_fail_tryagain" = "Connection failed. Please try again.";
+"str_cast_nodevice_info" = "No devices found? Your TV may not be supported yet — we're expanding compatibility.";
