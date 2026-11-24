@@ -168,6 +168,30 @@ flowchart LR
 
 ## 集成
 
+### Swift Package Manager（SPM）
+
+仓库根目录包含 `Package.swift`，Xcode 中依次选择 **File → Add Package Dependencies…**，输入本地仓库路径添加，或在 `Package.swift` 中声明：
+
+```swift
+dependencies: [
+    .package(path: "../LocalPod/DRBTVCast")
+],
+targets: [
+    .target(
+        name: "YourApp",
+        dependencies: [
+            .product(name: "DRBTVCast", package: "DRBTVCast")
+        ]
+    )
+]
+```
+
+SPM 方式会自动解析 Google Cast SDK（`googlecast/google-cast-ios-sdk`，`GoogleCastDynamic`，4.8.6+）。
+
+> **注意**：SPM 仅提供核心库 `DRBTVCast`。`DRBTVCastUI` 依赖主工程的 `DRB*` 私有符号与资源，无法独立编译，请通过 CocoaPods 或源码方式集成。
+
+### CocoaPods
+
 在 `Podfile` 中使用本地路径依赖：
 
 ```ruby
